@@ -1,0 +1,20 @@
+//
+// Configuration file for your app.  Only an example file should be checked into
+// source code control.  Do not check in files with sensitive information like
+// API keys!
+//
+
+{
+  "development": {
+    "codePushKey": "",
+    "appServerRootURL": "http://localhost:3000"
+  },
+  "staging": {
+    "codePushKey": "STAGING CODE PUSH KEY",
+    "appServerRootURL": "STAGING ROOT URL"
+   },
+  "production": {
+    "codePushKey": "PRODUCTION CODE PUSH KEY",
+    "appServerRootURL": "PRODUCTION ROOT URL"
+  }
+}
