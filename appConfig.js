@@ -11,9 +11,10 @@
 //
 
 import { RNConfig } from 'NativeModules';
+import lowerCase from 'lodash/lowerCase';
 import EnvConfig from './config.example.json';
 
-const IOS_NATIVE_ENV = RNConfig.buildEnvironment;
+const IOS_NATIVE_ENV = lowerCase(RNConfig.buildEnvironment);
 
 function getAppServerRootURL() {
   return EnvConfig[IOS_NATIVE_ENV].appRootURL;
