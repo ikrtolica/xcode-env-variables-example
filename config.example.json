@@ -6,15 +6,15 @@
 
 {
   "development": {
-    "codePushKey": "",
-    "appServerRootURL": "http://localhost:3000"
+    "apiKey": "LOCAL_API_KEY",
+    "appRootURL": "LOCAL_ROOT_URL"
   },
   "staging": {
-    "codePushKey": "STAGING CODE PUSH KEY",
-    "appServerRootURL": "STAGING ROOT URL"
+    "apiKey": "STAGING_API_KEY",
+    "appRootURL": "STAGING_ROOT_URL"
    },
   "production": {
-    "codePushKey": "PRODUCTION CODE PUSH KEY",
-    "appServerRootURL": "PRODUCTION ROOT URL"
+    "apiKey": "PROD_API_KEY",
+    "appRootURL": "PROD_ROOT_URL"
   }
 }
