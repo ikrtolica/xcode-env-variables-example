@@ -5,11 +5,11 @@
 //
 
 {
-  "development": {
+  "Debug": {
     "apiKey": "LOCAL_API_KEY",
     "appRootURL": "LOCAL_ROOT_URL"
   },
-  "staging": {
+  "Staging": {
     "apiKey": "STAGING_API_KEY",
     "appRootURL": "STAGING_ROOT_URL"
    },

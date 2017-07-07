@@ -16,9 +16,10 @@ import EnvConfig from './config.example.json';
 const IOS_NATIVE_ENV = RNConfig.buildEnvironment;
 
 function getAppServerRootURL() {
-  return EnvConfig[IOS_NATIVE_ENV].appServerRootURL;
+  return EnvConfig[IOS_NATIVE_ENV].appRootURL;
 }
 
 export default {
-  appServerRootURL: getAppServerRootURL()
+  environment: IOS_NATIVE_ENV,
+  appServerRootURL: getAppServerRootURL(),
 };
